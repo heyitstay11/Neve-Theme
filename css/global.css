@@ -184,7 +184,7 @@ nav ul a {
 }
 
 a.active, a:not(.button):hover {
-  color: var(--color-primary);
+  color: var(--color-primary-shade);
 }
 
 @media (max-width: 768px) {
@@ -239,7 +239,7 @@ a.active, a:not(.button):hover {
 }
 
 .service_wrapper {
-  max-width: 800px;
+  max-width: 840px;
   margin: 0 auto;
   padding: 3rem 0;
   display: grid;
@@ -452,6 +452,16 @@ footer p:first-of-type {
 
 .title {
   font-size: 2.6rem;
+  padding-bottom: 0.6em;
+}
+
+.subtitle {
+  font-size: var(--medium);
+  width: 60ch;
+}
+
+.desc {
+  width: 60ch;
 }
 
 .large {

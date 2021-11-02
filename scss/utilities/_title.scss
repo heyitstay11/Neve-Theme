@@ -1,10 +1,22 @@
 .title{
     font-size: 2.6rem;
+    padding-bottom: .6em;
 }
+
+.subtitle{
+    font-size: var(--medium);
+    width: 60ch;
+}
+
+.desc{
+    width: 60ch;
+}
+
 .large{
     font-size: var(--large);
     font-weight: 600;
 }
+
 .text-container{
     background-color: rgba(255, 255, 255, 0.75);
     padding: .6em;
