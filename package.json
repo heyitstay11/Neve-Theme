@@ -1,0 +1,16 @@
+{
+  "name": "WordPress_Theme_Neve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx sass scss/global.scss css/global.css --watch",
+    "build": "npx sass scss/global.scss css/global.css --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}

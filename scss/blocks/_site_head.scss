@@ -1,0 +1,49 @@
+.site_head{
+    --margin: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    letter-spacing: .4px;
+
+    & .logo_wrapper{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: var(--medium);
+        font-weight: bold;
+        
+        & p{
+            margin-left: .3rem;
+        }
+    }
+
+}
+
+#menu-button{
+    display: none;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: .5em;
+    transition: all .5s ease;
+
+    & :last-child:not(:first-child){
+        margin-left: .36em;
+    }
+}
+
+@media (max-width: 768px) {
+    .site_head{
+        --margin: 2.5rem;
+    }
+    #menu-button{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

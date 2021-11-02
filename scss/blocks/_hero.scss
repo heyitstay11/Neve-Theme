@@ -1,0 +1,19 @@
+.hero{
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: url(../imgs/hero.jpg);
+    background-color: var(--bg-light-shade);
+    object-fit: cover;
+    background-position-y: -200px;
+    
+    & .wrapper{
+        max-width: 700px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        & > * + * {
+            margin-top: 1em;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.team{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2em 0;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+   place-items: center;
+    & article{
+        text-align: center;
+
+        & figure {
+            & img{
+             margin: 0 auto;
+            }
+         }
+    }
+}

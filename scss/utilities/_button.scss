@@ -1,0 +1,26 @@
+.button{
+    background-color: var(--color-primary);
+    font-size: var(--font-size);
+    padding: 8px 16px;
+    margin-bottom: .4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: background-color .15s ease;
+    cursor: pointer;
+    border-color: transparent;
+    outline-offset: .5rem;
+}
+
+.button:hover{
+   background-color: var(--color-primary-shade);
+}
+
+.button_secondary{
+    background-color: var(--color-dark);
+    color: #fff;
+}
+
+.button_secondary:hover{
+    background-color: var(--color-dark-shade);
+    color: #fff;
+}

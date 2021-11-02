@@ -1,0 +1,46 @@
+.service_wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: grid;
+    gap: 30px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+
+    & h2{
+        font-size: var(--xlarge);
+    }
+
+    & > figure{
+        margin: 0 auto;
+
+        & > img{
+            object-fit: cover;
+        }
+    }
+
+    & > article{
+        margin: 0 1rem;
+    }
+}
+
+.service_wrapper.reverse{
+    direction: rtl;
+}
+
+.service_wrapper + section{
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+    .service_wrapper{
+        grid-template-columns: 1fr;
+ 
+    
+        & > article{
+            text-align: center;
+        }
+    }
+    
+}
