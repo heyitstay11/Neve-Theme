@@ -32,11 +32,11 @@ nav ul a{
     text-transform: uppercase;
     text-decoration: none;
     color: var(--color-dark);
-    transition: color .1s ease;
+    transition: border-bottom .1s ease, border-left .1s ease;
 }
 
 a[aria-current=page], a:not(.button):hover{
-    color: var(--color-primary-shade);
+    border-bottom: 4px solid var(--color-primary);
 }
 
 

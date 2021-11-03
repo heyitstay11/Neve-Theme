@@ -1,6 +1,6 @@
 .testimonial{
   max-width: 930px;
-  margin: 0 1em;
+  margin: 0 auto;
   padding: 3rem 0;
   display: flex;
   flex-wrap: wrap;
@@ -17,4 +17,11 @@
       }
   }
 
+}
+
+
+@media (max-width: 768px) {
+  .testimonial{
+    margin: 0 1em;
+  }
 }
