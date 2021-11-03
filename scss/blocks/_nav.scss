@@ -35,7 +35,7 @@ nav ul a{
     transition: color .1s ease;
 }
 
-a.active, a:not(.button):hover{
+a[aria-current=page], a:not(.button):hover{
     color: var(--color-primary-shade);
 }
 

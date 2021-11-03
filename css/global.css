@@ -183,7 +183,7 @@ nav ul a {
   transition: color 0.1s ease;
 }
 
-a.active, a:not(.button):hover {
+a[aria-current=page], a:not(.button):hover {
   color: var(--color-primary-shade);
 }
 
@@ -206,9 +206,6 @@ a.active, a:not(.button):hover {
   max-width: 700px;
   margin-left: 1rem;
   margin-right: 1rem;
-}
-.hero .wrapper > * + * {
-  margin-top: 1em;
 }
 
 .stats {
@@ -295,7 +292,7 @@ footer p:first-of-type {
 
 .testimonial {
   max-width: 930px;
-  margin: 0 auto;
+  margin: 0 1em;
   padding: 3rem 0;
   display: flex;
   flex-wrap: wrap;
@@ -457,11 +454,11 @@ footer p:first-of-type {
 
 .subtitle {
   font-size: var(--medium);
-  width: 60ch;
+  max-width: 60ch;
 }
 
 .desc {
-  width: 60ch;
+  max-width: 60ch;
 }
 
 .large {
